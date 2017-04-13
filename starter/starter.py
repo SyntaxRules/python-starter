@@ -7,7 +7,7 @@ The entry point for this application.
 """
 from __future__ import print_function
 
-__version__ = "0.2.0"
+__version__ = "0.1.0"
 
 
 class StartExample(object):
