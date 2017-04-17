@@ -1,7 +1,9 @@
 site_name: Python-Starter
 repo_url: https://github.com/SyntaxRules/python-starter/
+theme: readthedocs
+docs_dir: 'starter'
 pages:
-    - 'Home': 'overview.md'
+    - 'Overview': 'README.md'
     - 'User Guide':
-        - 'Quick Start': 'article1.md'
-        - 'Service API': 'article2.md'
+        - 'Quick Start': 'docs/user_guide/article1.md'
+        - 'Service API': 'docs/user_guide/article2.md'

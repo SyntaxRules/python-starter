@@ -1,6 +1,19 @@
-# Welcome to MkDocs
+# Documentation
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+The documentation uses [mkdocs.org](http://mkdocs.org) to build and serve itself. This produces pretty HTML pages for external viewing and is compatible with ReadtheDocs.org.
+
+To generate a PDF of this documentation use: https://github.com/jgrassler/mkdocs-pandoc
+
+## Generating a PDF
+
+To generate a PDF from mkdocs use [mkdocs-pandoc](https://github.com/jgrassler/mkdocs-pandoc).
+
+To install it, perform the following steps:
+
+1. yum install fonts-lmodern lmodern pandoc texlive-base texlive-latex-extra texlive-fonts-recommended texlive-latex-recommended texlive-xetex
+2. yum install texlive-latex texlive-pdfpages texlive-pdftex
+
+
 
 ## Commands
 
