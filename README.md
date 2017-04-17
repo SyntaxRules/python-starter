@@ -1,7 +1,7 @@
 # python-starter
 A starting spot for python projects. Embracing open source elements.
 
-![Documentation status](https://readthedocs.org/projects/python-starter/badge/?version=latest) [![Build Status](https://travis-ci.org/SyntaxRules/python-starter.svg?branch=master)](https://travis-ci.org/SyntaxRules/python-starter)
+[![Documentation status](https://readthedocs.org/projects/python-starter/badge/?version=latest)](http://python-starter.readthedocs.io/en/latest/) [![Build Status](https://travis-ci.org/SyntaxRules/python-starter.svg?branch=master)](https://travis-ci.org/SyntaxRules/python-starter)
 
 # Project Structure
 
