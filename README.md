@@ -4,14 +4,24 @@ A starting spot for python projects. Embracing open source elements.
 [![Documentation status](https://readthedocs.org/projects/python-starter/badge/?version=latest)](http://python-starter.readthedocs.io/en/latest/) [![Build Status](https://travis-ci.org/SyntaxRules/python-starter.svg?branch=master)](https://travis-ci.org/SyntaxRules/python-starter) [![codecov](https://codecov.io/gh/SyntaxRules/python-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/SyntaxRules/python-starter)
 
 
-# Project Structure
+# Project Details
+
+## Structure
 
 This project follows the structure suggested in [Jan-Philip Gehrcke's Blog](https://gehrcke.de/2014/02/distributing-a-python-command-line-application/).
 
-# Project Versioning
+## Versioning
 
 This project uses [Semver](http://semver.org/) as its versioning scheme.
 
-# Project Tests
+## Tests.
 
-Basic acceptance tests are in the tests folder. You can run these tests by running `python setup.py test`.
+Basic acceptance tests are in the tests folder. You can run these tests by running `python setup.py test`. The unit tests are in line with the code. You can run all the tests with `python -m pytest .`.
+
+The tests are ran automatically when they are submitted to github via [travici.org](https://travis-ci.org/SyntaxRules/python-starter). Your tests must work here to be considered passing, it doesn't matter if they run on your local machine, if they fail on TravisCI, then they will not be accepted into matser.
+
+Coverage is also determined by TravisCI and reported to [CodeCov](https://codecov.io/gh/SyntaxRules/python-starter).
+
+## Documentation
+
+Documentation is inline (like unit tests) and deployed with [Read the Docs](http://python-starter.readthedocs.io/en/latest/). When editing code, please include documentation for your changes. Add any new files to the `mkdocs.yml` file. The documentation is automatically built and installed.
