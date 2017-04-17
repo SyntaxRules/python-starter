@@ -1,0 +1,7 @@
+site_name: Python-Starter
+repo_url: https://github.com/SyntaxRules/python-starter/
+pages:
+    - 'Home': 'overview.md'
+    - 'User Guide':
+        - 'Quick Start': 'article1.md'
+        - 'Service API': 'article2.md'
