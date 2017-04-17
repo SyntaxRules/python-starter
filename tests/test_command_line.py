@@ -17,4 +17,4 @@ class TestStarter(unittest.TestCase):
         pipe = subprocess.Popen(self.command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = pipe.communicate()
         print(stdout)
-        self.assertEquals(stdout.splitlines(), "Version: 0.2.0\nHello World!\n".splitlines())
+        self.assertEquals(stdout.splitlines(), "Version: 0.1.0\nHello World!\n".splitlines())
