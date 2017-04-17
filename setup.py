@@ -25,8 +25,8 @@ setup(
         "console_scripts": ['start_example = starter.__main__:main']
     },
     test_suite='tests',
-    tests_require=['coverage',
-                   'pytest',
+    tests_require=['pytest',
+                   'pytest-cov',
                    'pylint',
                    'mock']
 )
