@@ -3,7 +3,7 @@ repo_url: https://github.com/SyntaxRules/python-starter/
 theme: readthedocs
 docs_dir: 'starter'
 pages:
-    - 'Overview': 'README.md'
+    - 'Overview': 'index.md'
     - 'User Guide':
         - 'Quick Start': 'docs/user_guide/article1.md'
         - 'Service API': 'docs/user_guide/article2.md'
