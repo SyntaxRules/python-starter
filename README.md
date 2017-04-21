@@ -5,6 +5,8 @@ A starting spot for python projects. Embracing open source elements.
 
 Documentation: http://python-starter.readthedocs.io/en/latest/
 
+Quick Start: http://python-starter.readthedocs.io/en/latest/docs/quick-start/
+
 # Project Details
 
 ## Structure
