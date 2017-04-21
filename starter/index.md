@@ -1,5 +1,5 @@
 # Overview
 
-This is the project overview
+This is the overview page and the default index page of the documentation.
 
-Wit foo bar
+For development details (i.e project structure, tests and versioning) see the README.md file in the src repository.

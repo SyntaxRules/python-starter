@@ -5,5 +5,6 @@ docs_dir: 'starter'
 pages:
     - 'Overview': 'index.md'
     - 'User Guide':
-        - 'Quick Start': 'docs/user_guide/article1.md'
-        - 'Service API': 'docs/user_guide/article2.md'
+        - 'Quick Start': 'docs/quick-start.md'
+        - 'Installation Instructions': 'docs/installation-instructions.md'
+    - 'License': 'docs/license.md'
