@@ -16,11 +16,22 @@ class StartExample(object):
     """
 
     def __init__(self):
+        """
+        Starter Example constructor. Used to setup before running.
+        """
         self.location = "World"
 
     def run(self):
+        """
+        Run your application.
+        :return:
+        """
         self.print_version()
         print("Hello {}!".format(self.location))
 
     def print_version(self):
+        """
+        Print the version
+        :return:
+        """
         print("Version: {}".format(__version__))

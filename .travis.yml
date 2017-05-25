@@ -7,6 +7,8 @@ install:
   - pip install -r requirements.txt
   - pip install codecov
 # command to run tests
-script: python -m pytest . --cov=starter --cov-report term --cov-report xml
+script:
+  - pylint --ignore-patterns=test* starter || [[ $? == 0 || $? -ge 8 ]]
+  - python -m pytest . --cov=starter --cov-report term-missing --cov-report xml
 after_success:
   - codecov
